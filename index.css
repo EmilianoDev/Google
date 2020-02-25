@@ -1,0 +1,127 @@
+#navbar{
+    display: grid;
+    grid-auto-flow: column;
+    min-height: 60px;
+    min-width: 1120px;
+    justify-content: end;
+    align-content: center;
+    grid-gap: 13px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    align-items: center;
+    padding-right: 28px;
+}
+#logo{
+    display: grid;
+    align-content: end;
+    justify-content: center;
+    min-height: 190px;
+    min-width: 1150px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#image{
+    max-width: 30px;
+    max-height: 30px;
+}
+#photo{
+    border: 3px;
+    border-radius: 50%;
+}
+#search{
+    display: grid;
+    justify-content: center;
+    min-width: 1130px;
+    align-items: center;
+    min-height: 100px;
+}
+#searchbox{
+    border-radius: 25px;
+    background: transparent;
+    width: 450px;
+    height: 35px;
+}
+#buttons{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    min-width: 1130px;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    font-family: arial;
+    font-size: 13px;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    background: #f2f2f2;
+    border: 0px;
+    color: rgb(78, 78, 78);
+}
+#button:hover{
+    color: black;
+    border: 1px solid black;
+}
+#text{
+    padding-top: 30px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#blue{
+    color: rgb(53, 35, 218);
+}
+#pais{
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    border: 0.1px solid rgb(211, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+}
+#argentina{
+    color: rgb(78, 78, 78);
+    font-size:15px;
+    padding: 13px 0px 15px 30px;
+}
+#bottom{
+    color: rgb(78, 78, 78);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left:0;
+    bottom:0;
+    display: grid;
+    grid-auto-flow: column;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(245, 245, 245)
+}
+#prim{
+    display:grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    justify-content: start;
+    margin-left: 30px;
+    min-width: 700px;
+}
+#seg{
+    display:grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    justify-content: end;
+    margin-right: 30px;
+}
